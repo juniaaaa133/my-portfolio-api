@@ -14,7 +14,8 @@ class TestController extends Controller
     {
         //
         return [
-            Test::all()
+            'name' =>'Friction',
+            'desc' => "Globally Fk up"
         ];
     }
 
