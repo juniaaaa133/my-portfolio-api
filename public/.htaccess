@@ -43,5 +43,5 @@
     RewriteRule ^ index.php [L]
  
     # Send Requests To API Front Controller...
-    RewriteRule ^/
-</IfModule>
+    RewriteRule ^api/.*$ /api/index.php [L]
+    </IfModule>
