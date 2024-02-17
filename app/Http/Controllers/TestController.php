@@ -13,9 +13,10 @@ class TestController extends Controller
     public function index()
     {
         //
+        $data = Test::all();
         return [
-            'name' =>'Friction',
-            'desc' => "Globally Fk up"
+            'data' => $data,
+           
         ];
     }
 
